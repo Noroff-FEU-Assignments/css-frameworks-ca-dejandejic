@@ -1,0 +1,21 @@
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: var(--primary-colour) !important;
+}
+.navbar {
+  background-color: var(--nav-colour) !important;
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 15px;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  background-color: white;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+.navbar-collapse {
+  z-index: 1;
+}

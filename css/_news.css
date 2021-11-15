@@ -1,0 +1,35 @@
+.home-block {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 0.5rem 1rem;
+}
+.home-block h5 {
+  font-size: 20px;
+  color: black;
+}
+.home-block p {
+  font-size: 18px;
+  flex: 1;
+}
+.home-block .btn {
+  font-size: 0.8rem;
+  background: var(--primary-colour);
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+}
+.home-block .btn-primary::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background: #767676;
+}
+.btn-toolbar .btn-group .btn-primary {
+  background-color: var(--primary-colour);
+}
