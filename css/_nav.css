@@ -19,3 +19,14 @@
 .navbar-collapse {
   z-index: 1;
 }
+.form-control {
+  background-color: white;
+  border: none;
+  font-size: 13px;
+}
+
+.btn-outline-success {
+  color: white;
+  background-color: var(--primary-colour);
+  border: none;
+}

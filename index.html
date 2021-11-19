@@ -16,6 +16,7 @@
 </head>
 <body>
   <div class="wrapper">
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">The YAY Company</a>
@@ -41,6 +42,7 @@
           </div>
         </div>
       </nav>
+ 
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -58,7 +60,61 @@
       <div class="container">
       <h1 class="home">We Do YAY things</h1>
       <p>Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.</p>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">First</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Second</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Third</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/tab/tab-1.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-icon">SHARE <i class="fa fa-facebook"></i><i class="fa fa-twitter"></i></p>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/tab/tab-2.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-icon">SHARE <i class="fa fa-facebook"></i><i class="fa fa-twitter"></i></p>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/tab/tab-3.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-icon">SHARE <i class="fa fa-facebook"></i><i class="fa fa-twitter"></i></p>
+              </div>
+            </div>
+          </div>
+        </div></div>
       </div>
+      </div>
+
     </div>
       <footer>
         <div><i class="fa fa-vimeo"></i><i class="fa fa-youtube"></i></div>
