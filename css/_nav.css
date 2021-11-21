@@ -2,6 +2,7 @@
   font-family: "Playfair Display", serif;
   font-size: 20px;
   color: var(--primary-colour) !important;
+  margin-left: 3em;
 }
 .navbar {
   background-color: var(--nav-colour) !important;
@@ -29,4 +30,22 @@
   color: white;
   background-color: var(--primary-colour);
   border: none;
+}
+.d-flex {
+  margin-right: 3em;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 5px;
+    font-size: 15px;
+    justify-content: flex-start;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+    font-size: 15px;
+  }
 }
